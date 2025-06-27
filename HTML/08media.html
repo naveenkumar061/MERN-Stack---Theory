@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML || Media</title>
+  </head>
+  <body>
+    <h1>Media</h1>
+    <h3>Image</h3>
+    <h4>Absolute Path</h4>
+    <img
+      src="https://www.freemorningimages.com/wp-content/uploads/2023/04/beautiful-good-morning-images-and-quotes.jpg"
+      alt="Good Morning Image"
+      height="100px"
+      width="100px"
+    />
+    <h4>Relative Path</h4>
+    <img src="./Image1.jpg" height="100px" width="100px" alt="Some Quote" />
+    <h3>Audio</h3>
+    <h4>Way 1</h4>
+    <audio src="./Audio.mp3" controls autoplay loop muted></audio>
+    <h4>Way 2</h4>
+    <audio controls autoplay loop muted>
+      <source src="./Audio.mp3" type="audio/mp3" />
+    </audio>
+    <h3>Video</h3>
+    <h4>Way 1</h4>
+    <video
+      src="./Video.mp4"
+      controls
+      autoplay
+      loop
+      muted
+      height="100px"
+      width="100px"
+    ></video>
+    <h4>Way 2</h4>
+    <video controls autoplay loop muted height="100px" width="100px">
+      <source src="./Video.mp4" type="video/mp4" />
+    </video>
+  </body>
+</html>

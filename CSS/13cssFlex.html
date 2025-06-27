@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS || Flex</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        display: flex;
+        height: 500px;
+        background-color: cadetblue;
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        justify-content: center;
+        align-items: center;
+        /* align-content: center; */
+        flex-wrap: wrap;
+        /* flex-flow: row wrap; */
+        gap: 30px;
+      }
+      .container div {
+        margin: 10px;
+        padding: 10px;
+        background-color: aqua;
+        width: 150px;
+        /* height: 200px; */
+        font-size: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div style="order: 1; flex-grow: 4; flex-shrink: 0">Item 1</div>
+      <div style="order: 2">Item 2</div>
+      <div style="flex-basis: 300px">Item 3</div>
+      <div style="order: -1; flex-grow: 2; flex-shrink: 0">Item 4</div>
+      <div style="align-self: flex-end">Item 5</div>
+      <div>Item 6</div>
+      <div>Item 7</div>
+      <div>Item 8</div>
+      <div>Item 9</div>
+      <div>Item 10</div>
+      <div>Item 11</div>
+      <div>Item 12</div>
+      <div>Item 13</div>
+      <div>Item 14</div>
+      <div>Item 15</div>
+      <div>Item 16</div>
+      <div>Item 17</div>
+      <div>Item 18</div>
+      <div>Item 19</div>
+      <div>Item 20</div>
+    </div>
+  </body>
+</html>

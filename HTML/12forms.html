@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML || Forms</title>
+  </head>
+  <body>
+    <h1>Forms</h1>
+    <form autocomplete="on">
+      <fieldset>
+        <legend>Input</legend>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" required value="Naveen" />
+        <br />
+        <br />
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="abcdefghijkl@sample.com"
+          autofocus
+        />
+        <br />
+        <br />
+        <label for="image">Image</label>
+        <input type="image" src="./Image1.jpg" alt="image" readonly />
+        <br />
+        <br />
+        <label for="file">Insert File:</label>
+        <input type="file" id="file" name="file" />
+        <br />
+        <br />
+        <label for="number">Phone Number</label>
+        <input
+          type="number"
+          id="number"
+          name="number"
+          step="2"
+          min="20"
+          max="100"
+        />
+        <br />
+        <br />
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" maxlength="10" />
+        <br />
+        <br />
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor" />
+        <br />
+        <br />
+        <label for="birthdate">Date of Birth:</label>
+        <input type="date" id="birthdate" name="birthdate" />
+        <br />
+        <br />
+        <label for="birthdatetime">Date of Birth with time:</label>
+        <input type="datetime-local" id="birthdatetime" name="birthdatetime" />
+        <br />
+        <br />
+        <label for="hidden">Hidden</label>
+        <input type="hidden" name="hidden" id="hidden" />
+        <br />
+        <br />
+        <label for="yearMonth">Date of Month and Year</label>
+        <input type="month" name="yearMonth" id="yearMonth" />
+        <br />
+        <br />
+        <label for="range">Range</label>
+        <input
+          type="range"
+          name="range"
+          id="range"
+          min="0"
+          max="200"
+          step="20"
+        />
+        <br />
+        <br />
+        <label for="search">Search</label>
+        <input type="search" name="search" id="search" />
+        <br />
+        <br />
+        <label for="tele">Telephone</label>
+        <input type="tel" name="tele" id="tele" />
+        <br />
+        <br />
+        <label for="time">Select Time</label>
+        <input type="time" name="time" id="time" />
+        <br />
+        <br />
+        <label for="url">URL</label>
+        <input type="url" name="url" id="url" />
+        <br />
+        <br />
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week" />
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+        <br />
+        <br />
+        <input type="reset" value="Reset" />
+        <br />
+        <br />
+        <input type="button" value="Button" disabled />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Input - Radio</legend>
+        <label>Gender</label>
+        <br />
+        <input type="radio" name="gender" id="male" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="female">Female</label>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Input - Checkbox</legend>
+        <label>Chooes your coding languages:</label>
+        <br />
+        <input type="checkbox" name="languages" id="java" checked />
+        <label for="java">Java</label>
+        <input type="checkbox" name="languages" id="c++" />
+        <label for="c++">C++</label>
+      </fieldset>
+      <fieldset>
+        <legend>Select Element</legend>
+        <label for="cars">Choose a car :</label>
+        <select id="cars" name="cars">
+          <option value="i20">i20</option>
+          <option value="wagnor">Wagnor</option>
+          <option value="tata punch">Tata Punch</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi" selected>Audi</option>
+        </select>
+        <br />
+        <br />
+        <label for="skills">Choose skills :</label>
+        <select id="skills" size="3" name="skills">
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="javascript">JavaScript</option>
+          <option value="react">ReactJS</option>
+          <option value="next">NextJS</option>
+        </select>
+        <br />
+        <br />
+        <label for="carsMulti">Choose a car:</label>
+        <select id="carsMulti" multiple name="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="fiat">Fiat</option>
+          <option value="audi">Audi</option>
+        </select>
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>TextArea</legend>
+        <label for="sampleTextArea">Sample Text</label>
+        <textarea id="sampleTextArea" cols="30" rows="5" name="sampleTextArea">
+  Cat is playing in garden.</textarea
+        >
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>DataList</legend>
+        <input list="Courses" name="Courses" />
+        <datalist id="Courses">
+          <option value="FSD">Full Stack Developer</option>
+          <option value="DS">Data Structures</option>
+        </datalist>
+      </fieldset>
+      <br />
+      <button type="submit">Submit</button>
+      <br />
+      <br />
+    </form>
+  </body>
+</html>

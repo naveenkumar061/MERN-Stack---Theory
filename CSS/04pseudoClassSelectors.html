@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS || Pseudo Class Selectors</title>
+    <style>
+      a:active {
+        color: green;
+      }
+      input:disabled {
+        border-radius: 5px;
+      }
+      p:first-child {
+        background-color: blue;
+        color: white;
+      }
+      p:first-of-type {
+        font-size: 30px;
+      }
+      input:focus {
+        background-color: green;
+      }
+      a:hover {
+        color: orange;
+      }
+      p:last-child {
+        border: 1px solid black;
+      }
+      p:last-of-type {
+        border-radius: 10px;
+      }
+      p:nth-child(3) {
+        text-transform: uppercase;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo Class Selectors</h1>
+    <p>First Child in Body</p>
+    <a href="https://google.com" target="_blank">Google</a>
+    <br />
+    <br />
+    <input type="text" name="text" disabled />
+    <input type="text" name="text" />
+    <br />
+    <div>
+      <p>First Child in Div</p>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit dolorum
+        inventore ipsa facere nulla in architecto illo distinctio voluptatem
+        quis aliquid voluptatibus tempore pariatur, ut facilis obcaecati atque
+        numquam eum.
+      </p>
+      <div>
+        <h3>Lorem.</h3>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem, ipsum.</p>
+      </div>
+      <h3>Lorem.</h3>
+      <h3>Lorem.</h3>
+      <p>Second Child in Div</p>
+    </div>
+  </body>
+</html>
