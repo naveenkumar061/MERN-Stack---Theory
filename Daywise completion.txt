@@ -1,3 +1,20 @@
 On June 28, 2025, I finished up to Module 36 of The Complete JavaScript Course 2025: From Zero to Expert!. 
 On June 29, 2025, I completed Modules 37 to 68 of The Complete JavaScript Course 2025: From Zero to Expert!. 
-On June 30, 2025, I completed Modules 69 to 103 of The Complete JavaScript Course 2025: From Zero to Expert!.
+On June 30, 2025, I completed Modules 69 to 85 of The Complete JavaScript Course 2025: From Zero to Expert!.
+On July 01, 2025, I completed Modules 86 to 86 of The Complete JavaScript Course 2025: From Zero to Expert!.
+On July 02, 2025, I completed Modules 86 to 102 of The Complete JavaScript Course 2025: From Zero to Expert!.
+On July 03, 2025, I completed Modules 103 to 104 of The Complete JavaScript Course 2025: From Zero to Expert!.
+On July 04, 2025, I completed Modules 105 to 106 of The Complete JavaScript Course 2025: From Zero to Expert!.
+On July 05, 2025, I completed Modules 106 to 106 of The Complete JavaScript Course 2025: From Zero to Expert!.
+On July 06, 2025, I completed Modules 107 to 108 of The Complete JavaScript Course 2025: From Zero to Expert!.
+On July 07, 2025, I completed Modules 109 to 111 of The Complete JavaScript Course 2025: From Zero to Expert!.
+On July 08, 2025, I completed Modules 111 to 111 of The Complete JavaScript Course 2025: From Zero to Expert!.
+On July 09, 2025, I completed Modules 111 to 111 of The Complete JavaScript Course 2025: From Zero to Expert!.
+On July 10, 2025, I completed Modules 112 to 112 of The Complete JavaScript Course 2025: From Zero to Expert!.
+On July 11, 2025, I completed Modules 113 to 120 of The Complete JavaScript Course 2025: From Zero to Expert!.
+
+Today , we should complete upto Destruccturing Arrays.
+
+Before interview go through following 
+1.Important Doc
+2.Section 8 in The Complete JavaScript Course 2025: From Zero to Expert!
